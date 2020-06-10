@@ -376,6 +376,7 @@ def extract_vertices(lines):
 
 def load_annoataion_quard_from_json(p):
     text_polys = []
+    labels = []
     with open(p, "r") as f:
         json_dict = json.load(f)
     for item in json_dict['shapes']:
@@ -386,7 +387,8 @@ def load_annoataion_quard_from_json(p):
         x3, y3 = map(int, points[2])
         x4, y4 = map(int, points[3])
         text_polys.append([[x1, y1], [x2, y2], [x3, y3], [x4, y4]])
-    return np.array(text_polys)
+        labels.append(1)
+    return np.array(text_polys), np.array(labels)
 
 class custom_dataset(data.Dataset):
     def __init__(self, img_root_dir, scale=0.25, length=512):
@@ -406,7 +408,7 @@ class custom_dataset(data.Dataset):
     def __getitem__(self, index):
         with open(self.gt_files[index], 'r') as f:
             lines = f.readlines()
-        vertices, labels = extract_vertices(lines)
+        # vertices, labels = extract_vertices(lines)
         vertices, labels = load_annoataion_quard_from_json(self.gt_files[index])
 
         img = Image.open(self.img_files[index])

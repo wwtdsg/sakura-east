@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84c9a094-060e-4a16-85d4-18d504eed4a6" name="Default Changelist" comment="" />
+    <list default="true" id="84c9a094-060e-4a16-85d4-18d504eed4a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dataset.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="356" column="4" selection-start-line="356" selection-start-column="4" selection-end-line="356" selection-end-column="4" />
+            <state relative-caret-position="294">
+              <caret line="411" column="52" lean-forward="true" selection-start-line="411" selection-start-column="52" selection-end-line="411" selection-end-column="52" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -268,15 +270,16 @@
       <updated>1560763692991</updated>
       <workItem from="1560763704314" duration="37615000" />
       <workItem from="1561079507538" duration="3578000" />
-      <workItem from="1591781093224" duration="3409000" />
+      <workItem from="1591781093224" duration="3461000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44602000" />
+    <option name="totallyTimeSpent" value="44654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15039062" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -327,12 +330,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataset.py</url>
-          <line>411</line>
+          <line>413</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/dataset.py</url>
-          <line>408</line>
+          <line>410</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
@@ -495,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="356" column="4" selection-start-line="356" selection-start-column="4" selection-end-line="356" selection-end-column="4" />
+        <state relative-caret-position="294">
+          <caret line="411" column="52" lean-forward="true" selection-start-line="411" selection-start-column="52" selection-end-line="411" selection-end-column="52" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
